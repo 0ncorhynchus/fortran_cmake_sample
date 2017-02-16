@@ -6,7 +6,6 @@ program main
 
   call exec(add, 5, 3)
   call exec(sub, 5, 3)
-  call exec(mul, 5, 3)
 
 end program main
 

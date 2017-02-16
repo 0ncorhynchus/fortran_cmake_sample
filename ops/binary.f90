@@ -5,8 +5,8 @@ contains
 
   function add(lhs, rhs)
     implicit none
-    integer, intent(in) :: lhs, rhs
     integer             :: add
+    integer, intent(in) :: lhs, rhs
 
     add = lhs + rhs
 
@@ -14,21 +14,12 @@ contains
 
   function sub(lhs, rhs)
     implicit none
-    integer, intent(in) :: lhs, rhs
     integer             :: sub
+    integer, intent(in) :: lhs, rhs
 
     sub = lhs - rhs
 
   end function sub
-
-  function mul(lhs, rhs)
-    implicit none
-    integer, intent(in) :: lhs, rhs
-    integer             :: mul
-
-    mul = lhs * rhs
-
-  end function mul
 
 end module ops
 
